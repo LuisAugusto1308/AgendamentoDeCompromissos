@@ -1,0 +1,48 @@
+body {
+    background-color: #3b4749;
+    color: white;
+}
+
+h1,
+h2 {
+    text-shadow: 2px 2px #888;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: OpenSans, sans-serif;
+    text-align: center;
+}
+
+.form-container textarea {
+    border: 1.5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    resize: vertical;
+    margin-top: 10px;
+}
+
+#notes-label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-left: 4px;
+}
+
+label,
+input,
+textarea {
+    color: white;
+    background-color: #3b4749;
+    margin-bottom: 10px;
+}
